@@ -1,7 +1,7 @@
 ### Programming Assignment 2: Markov Decision Processes
 ### CPSC 4420
 ### Kevius Tribble
-
+import argparse
 
 ### represent MDP as a class
 class MDPenv:
@@ -90,7 +90,7 @@ class MDPenv:
             return state, reward
                     
 ### make a function that uses the MDP_ENV class to do value iteration
-def value_iteration(MDPenv, gamma, noise, iterations):
+def value_iteration(MDPenv, gamma, noise, iterations, print_data=True):
     # gamma = reward decay
     # noise = probability of incorrect action 
     v = {s: 0 for s in  MDPenv.states}
@@ -125,13 +125,14 @@ def value_iteration(MDPenv, gamma, noise, iterations):
 
             policy[state] = best_action
             #print first 10 iterations
-            # if (i < 10):
-            #     for state in sorted(MDPenv.states):
-            #         print(f"iteration {i+1}: ")
-            #         print(f"State: {state}, Value: {v[state]:.2f}, Best Action: {policy[state]}")
+            if print_data:
+                if (i < 10):
+                    for state in sorted(MDPenv.states):
+                        print(f"iteration {i+1}: ")
+                        print(f"State: {state}, Value: {v[state]:.2f}, Best Action: {policy[state]}")
         full_policy[i] = policy
         v=v_new
-    return v, policy, full_policy #returns final V, policy, a full policy list
+    return full_policy #returns final V, policy, a full policy list
 
 #write a function to follow the optinal policy. Will need to output the policies for all iterations. 
 def optimal_path(start, stop, policy):
@@ -148,18 +149,24 @@ def optimal_path(start, stop, policy):
     mdp = MDPenv(grid_size, terminal_states, walls, obstacles)
     curr_state = start
     states = []
-    for i in range(10):
+    for i in range(10): #limit to 10 steps
         states.append(curr_state)
         if i < len(policy) and curr_state in policy[i]:
-            next_state, _ = mdp.transition(curr_state, policy[i][curr_state])
+            next_state, reward = mdp.transition(curr_state, policy[i][curr_state])
             curr_state = next_state
-            # stop if we've reached the goal cell (ignore facing dir)
+            # stop when goal is reached
             if curr_state[0:2] == stop[0:2]:
                 states.append(curr_state)
                 break
     return states
 
-def main():
+def main(argv=None, **kwargs):
+    ### command line args to pick between parts B-F
+    parser = argparse.ArgumentParser(description="MDP Value Iteration")
+    parser.add_argument('--part', type=str, choices=['B', 'C', 'D', 'E', 'F'], required=True, help="Part of the assignment to run (B, C, D, E, F)")
+    args = parser.parse_args()
+
+    #define mdp paraqmeters
     grid_size = 5
     obstacles = {(2,5), (3,2), (4,5)} 
     walls = {(1,4):[(1,3)], \
@@ -170,16 +177,28 @@ def main():
                       (5,2):[(5,3)] \
                       }
     terminal_states = {(5,5): 100, (3,4): -1000}
+
     mdp = MDPenv(grid_size, terminal_states, walls, obstacles)
+
     #part B
-    V, policy, full_policy = value_iteration(mdp, gamma=1, noise=0, iterations=100)
+    if args.part == 'B':
+        full_policy = value_iteration(mdp, gamma=1, noise=0, iterations=100)
     #part c = follow the policy
-    print(optimal_path((1,1,1), (5,5,1), full_policy))
+    if args.part == 'C':
+        full_policy = value_iteration(mdp, gamma=1, noise=0, iterations=100)
+        print(optimal_path((1,1,1), (5,5,1), full_policy))
     #part D = gamma = .9
-
+    if args.part == 'D':
+        full_policy = value_iteration(mdp, gamma=.9, noise=0, iterations=100)
+        print(optimal_path((1,1,1), (5,5,1), full_policy))
     #part E gamma = .1
-
+    if args.part == 'E':
+        full_policy = value_iteration(mdp, gamma=.1, noise=0, iterations=100)
+        print(optimal_path((1,1,1), (5,5,1), full_policy))
     #part F gamma = .9 & noise = .1
+    if args.part == 'F':
+        full_policy = value_iteration(mdp, gamma=.9, noise=.1, iterations=100)
+        print(optimal_path((1,1,1), (5,5,1), full_policy))
 
 if __name__ == "__main__":
     main()
