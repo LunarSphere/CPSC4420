@@ -58,12 +58,16 @@ class MDPenv:
                 next_state = (x-1, y, d)
         elif action == 2: #move forward 2
             if d == 1:
+                next_state_inter = (x, y+1, d)
                 next_state = (x, y+2, d)
             if d == 2:
+                next_state_inter = (x, y+1, d)
                 next_state = (x+2, y, d)
             if d == 3:
+                next_state_inter = (x, y+1, d)
                 next_state = (x, y-2, d)
             if d == 4:
+                next_state_inter = (x, y+1, d)
                 next_state = (x-2, y, d)
         elif action == 3: # turn right
             next_state = (x,y, (d%4)+1)
@@ -73,6 +77,11 @@ class MDPenv:
         #calculate reward 
         reward = self.actions[action]
         x_next, y_next, d_next= next_state
+        # check intermediate state for action 2 incase of walls/obstacles
+        if action == 2:
+            x_inter, y_inter, d_inter = next_state_inter
+            if not self.is_state_valid(next_state_inter):
+                return state, reward
         if self.is_state_valid(next_state):
             if (x_next,y_next) in self.terminal_states:
                 reward += self.terminal_states[(x_next,y_next)]
@@ -115,6 +124,7 @@ def value_iteration(MDPenv, gamma, noise, iterations):
             v_new[state] = action_values[best_action]
 
             policy[state] = best_action
+            #print first 10 iterations
             # if (i < 10):
             #     for state in sorted(MDPenv.states):
             #         print(f"iteration {i+1}: ")
@@ -138,12 +148,15 @@ def optimal_path(start, stop, policy):
     mdp = MDPenv(grid_size, terminal_states, walls, obstacles)
     curr_state = start
     states = []
-    i=0
     for i in range(10):
         states.append(curr_state)
-        # states.append(policy[i][curr_state])
-        if curr_state in policy[i]:
-            curr_state = mdp.transition(curr_state, policy[i][curr_state])
+        if i < len(policy) and curr_state in policy[i]:
+            next_state, _ = mdp.transition(curr_state, policy[i][curr_state])
+            curr_state = next_state
+            # stop if we've reached the goal cell (ignore facing dir)
+            if curr_state[0:2] == stop[0:2]:
+                states.append(curr_state)
+                break
     return states
 
 def main():
