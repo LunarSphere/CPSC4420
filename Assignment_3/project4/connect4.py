@@ -299,7 +299,7 @@ def alphabeta(player, board, depth_limit):
         for col, child in children:
             val = value(next_player, child, depth_limit-1, alpha, beta)
             max_val = max(max_val, val)
-            alpha = max(alpha, eval)
+            alpha = max(alpha, val)
             if beta <= alpha:
                 break
         return max_val 
