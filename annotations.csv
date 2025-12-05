@@ -1,0 +1,272 @@
+id,video_file,question,options,answer,ground_truth,question_type
+0,Data/left_videos/video_0000000.mp4,"I am jogging, are there any Intersections visible between frame 12 and 16?","['A. yes', 'B. no']",A,yes,Intersections Ahead (Specific Range)
+1,Data/left_videos/video_0000001.mp4,Are there pedestrians visible between frame 8 and 10?,"['A. yes', 'B. no']",A,yes,Pedestrians (Specific Range)
+2,Data/left_videos/video_0000004.mp4,Where am I currently running? between frame 0 and 10?,"['A. designated running lane', 'B. sidewalk', 'C. street', 'D. off trail or hiking path or hiking path']",D,off trail,Navigation Lane 
+3,Data/left_videos/video_0000005.mp4,Are there obstructions visible to my left or right between frame 17 and 21?,"['A. left', 'B. right', 'C. none', 'D. both']",D,both,Obstructions (Specific Range)
+4,Data/left_videos/video_0000006.mp4,Are there pedestrians visible between frame 0 and 8?,"['A. yes', 'B. no']",A,yes,Pedestrians (Specific Range)
+5,Data/left_videos/video_0000007.mp4,"I am jogging, are there any Intersections visible between frame 20 and 25?","['A. yes', 'B. no']",A,yes,Intersections Ahead (Specific Range)
+6,Data/left_videos/video_0000008.mp4,Are there pedestrians visible between frame 8 and 15?,"['A. yes', 'B. no']",B,no,Pedestrians (Specific Range)
+7,Data/left_videos/video_0000010.mp4,"I am jogging, are there any Intersections visible between frame 2 and 8?","['A. yes', 'B. no']",A,yes,Intersections Ahead (Specific Range)
+8,Data/left_videos/video_0000011.mp4,Where am I currently running? between frame 20 and 25?,"['A. designated running lane', 'B. sidewalk', 'C. street', 'D. off trail or hiking path or hiking path']",D,off trail,Navigation Lane 
+9,Data/left_videos/video_0000012.mp4,Where am I currently running? between frame 0 and 10?,"['A. designated running lane', 'B. sidewalk', 'C. street', 'D. off trail or hiking path or hiking path']",D,off trail,Navigation Lane 
+10,Data/left_videos/video_0000003.mp4,Where am I currently running? between frame 0 and 31?,"['A. designated running lane', 'B. sidewalk', 'C. street', 'D. off trail or hiking path or hiking path']",D,off trail,Navigation Lane 
+11,Data/left_videos/video_0000013.mp4,"I am jogging, are there any Intersections visible between frame 0 and 6?","['A. yes', 'B. no']",B,no,Intersections Ahead (Specific Range)
+12,Data/left_videos/video_0000014.mp4,Are there pedestrians visible between frame 10 and 17?,"['A. yes', 'B. no']",A,yes,Pedestrians (Specific Range)
+13,Data/left_videos/video_0000015.mp4,Are there obstructions visible to my left or right between frame 0 and 10?,"['A. left', 'B. right', 'C. none', 'D. both']",D,both,Obstructions (Specific Range)
+14,Data/left_videos/video_0000016.mp4,Are there obstructions visible to my left or right between frame 0 and 10?,"['A. left', 'B. right', 'C. none', 'D. both']",D,both,Obstructions (Specific Range)
+15,Data/left_videos/video_0000017.mp4,I am jogging. Should I veer left or right to avoid obstructions between frame 27 and 31?,"['A. left', 'B. right', 'C. stay straight']",C,stay straight,Navigation Veer
+16,Data/left_videos/video_0000018.mp4,"I am jogging, are there any Intersections visible between frame 20 and 26?","['A. yes', 'B. no']",A,yes,Intersections Ahead (Specific Range)
+17,Data/left_videos/video_0000019.mp4,Where am I currently running between frame 0 and 7?,"['A. designated running lane', 'B. sidewalk', 'C. street', 'D. off trail or hiking path']",D,off trail or hiking path,Navigation Lane 
+18,Data/left_videos/video_0000021.mp4,I am jogging. Should I veer left or right to avoid obstructions between frame 0 and 7?,"['A. left', 'B. right', 'C. stay straight']",C,stay straight,Navigation Veer
+19,Data/left_videos/video_0000022.mp4,"I am jogging, are there any Intersections visible between frame 0 and 7?","['A. yes', 'B. no']",A,yes,Intersections Ahead (Specific Range)
+20,Data/left_videos/video_0000024.mp4,Are there pedestrians visible between frame 0 and 7?,"['A. yes', 'B. no']",B,no,Pedestrians (Specific Range)
+21,Data/left_videos/video_0000025.mp4,"I am jogging, are there any Intersections visible between frame 13 and 18?","['A. yes', 'B. no']",A,yes,Intersections Ahead (Specific Range)
+22,Data/left_videos/video_0000026.mp4,Are there pedestrians visible between frame 0 and 6?,"['A. yes', 'B. no']",A,yes,Pedestrians (Specific Range)
+23,Data/left_videos/video_0000028.mp4,Are there pedestrians visible between frame 20 and 25?,"['A. yes', 'B. no']",A,yes,Pedestrians (Specific Range)
+24,Data/left_videos/video_0000029.mp4,Are there pedestrians visible between frame 3 and 9?,"['A. yes', 'B. no']",A,yes,Pedestrians (Specific Range)
+25,Data/left_videos/video_0000030.mp4,Where am I currently running between frame 0 and 5?,"['A. designated running lane', 'B. sidewalk', 'C. street', 'D. off trail or hiking path']",D,off trail or hiking path,Navigation Lane 
+26,Data/left_videos/video_0000031.mp4,Where am I currently running between frame 0 and 31?,"['A. designated running lane', 'B. sidewalk', 'C. street', 'D. off trail or hiking path']",D,off trail or hiking path,Navigation Lane 
+27,Data/left_videos/video_0000032.mp4,Are there pedestrians visible between frame 0 and 31?,"['A. yes', 'B. no']",A,yes,Pedestrians (Specific Range)
+28,Data/left_videos/video_0000033.mp4,I am jogging. Should I veer left or right to avoid obstructions between frame 0 and 7?,"['A. left', 'B. right', 'C. stay straight']",A,left,Navigation Veer
+29,Data/left_videos/video_0000034.mp4,I am jogging. Should I veer left or right to avoid obstructions between frame 5 and 12?,"['A. left', 'B. right', 'C. stay straight']",C,stay straight,Navigation Veer
+30,Data/left_videos/video_0000035.mp4,Is there an immediate turn between frame 18 and 22?,"['A. yes turn left', 'B. yes turn right', 'C. yes turn left or right', 'D. no']",B,yes turn right,Navigation Turn
+31,Data/left_videos/video_0000036.mp4,Is there an immediate turn between frame 5 and 12?,"['A. yes turn left', 'B. yes turn right', 'C. yes turn left or right', 'D. no']",B,yes turn right,Navigation Turn
+32,Data/left_videos/video_0000037.mp4,Are there obstructions visible to my left or right between frame 0 and 7?,"['A. left', 'B. right', 'C. none', 'D. both']",C,none,Obstructions (Specific Range)
+33,Data/left_videos/video_0000038.mp4,Where am I currently running between frame 0 and 5?,"['A. designated running lane', 'B. sidewalk', 'C. street', 'D. off trail or hiking path']",D,off trail or hiking path,Navigation Lane 
+34,Data/left_videos/video_0000039.mp4,Where am I currently running between frame 0 and 10?,"['A. designated running lane', 'B. sidewalk', 'C. street', 'D. off trail or hiking path']",B,sidewalk,Navigation Lane 
+35,Data/left_videos/video_0000040.mp4,Where am I currently running between frame 0 and 7?,"['A. designated running lane', 'B. sidewalk', 'C. street', 'D. off trail or hiking path']",B,sidewalk,Navigation Lane 
+36,Data/left_videos/video_0000041.mp4,Where am I currently running between frame 0 and 7?,"['A. designated running lane', 'B. sidewalk', 'C. street', 'D. off trail or hiking path']",B,sidewalk,Navigation Lane 
+37,Data/left_videos/video_0000042.mp4,Where am I currently running between frame 0 and 7?,"['A. designated running lane', 'B. sidewalk', 'C. street', 'D. off trail or hiking path']",B,sidewalk,Navigation Lane 
+38,Data/left_videos/video_0000043.mp4,Where am I currently running between frame 0 and 7?,"['A. designated running lane', 'B. sidewalk', 'C. street', 'D. off trail or hiking path']",A,designated running lane,Navigation Lane 
+39,Data/left_videos/video_0000044.mp4,Are there obstructions visible to my left or right between frame 0 and 10?,"['A. left', 'B. right', 'C. none', 'D. both']",D,both,Obstructions (Specific Range)
+40,Data/left_videos/video_0000045.mp4,Where am I currently running between frame 0 and 7?,"['A. designated running lane', 'B. sidewalk', 'C. street', 'D. off trail or hiking path']",B,sidewalk,Navigation Lane 
+41,Data/left_videos/video_0000047.mp4,Where am I currently running between frame 10 and 17?,"['A. designated running lane', 'B. sidewalk', 'C. street', 'D. off trail or hiking path']",C,street,Navigation Lane 
+42,Data/left_videos/video_0000048.mp4,Where am I currently running between frame 0 and 7?,"['A. designated running lane', 'B. sidewalk', 'C. street', 'D. off trail or hiking path']",A,designated running lane,Navigation Lane 
+43,Data/left_videos/video_0000049.mp4,Where am I currently running between frame 0 and 7?,"['A. designated running lane', 'B. sidewalk', 'C. street', 'D. off trail or hiking path']",D,off trail or hiking path,Navigation Lane 
+44,Data/left_videos/video_0000050.mp4,"I am jogging, are there any Intersections visible between frame 0 and 7?","['A. yes', 'B. no']",A,yes,Intersections Ahead (Specific Range)
+45,Data/left_videos/video_0000051.mp4,Where am I currently running between frame 0 and 7?,"['A. designated running lane', 'B. sidewalk', 'C. street', 'D. off trail or hiking path']",A,designated running lane,Navigation Lane 
+46,Data/left_videos/video_0000052.mp4,I am jogging. Should I veer left or right to avoid obstructions between frame 0 and 10?,"['A. left', 'B. right', 'C. stay straight']",B,right,Navigation Veer
+47,Data/left_videos/video_0000053.mp4,Where am I currently running between frame 0 and 7?,"['A. designated running lane', 'B. sidewalk', 'C. street', 'D. off trail or hiking path']",D,off trail or hiking path,Navigation Lane 
+48,Data/left_videos/video_0000054.mp4,Where am I currently running between frame 0 and 7?,"['A. designated running lane', 'B. sidewalk', 'C. street', 'D. off trail or hiking path']",A,designated running lane,Navigation Lane 
+49,Data/left_videos/video_0000055.mp4,"I am jogging, are there any Intersections visible between frame 0 and 7?","['A. yes', 'B. no']",A,yes,Intersections Ahead (Specific Range)
+50,Data/left_videos/video_0000056.mp4,Where am I currently running between frame 0 and 7?,"['A. designated running lane', 'B. sidewalk', 'C. street', 'D. off trail or hiking path']",B,sidewalk,Navigation Lane 
+51,Data/left_videos/video_0000057.mp4,Are there pedestrians visible between frame 12 and 18?,"['A. yes', 'B. no']",A,yes,Pedestrians (Specific Range)
+52,Data/left_videos/video_0000058.mp4,Are there pedestrians visible between frame 0 and 7?,"['A. yes', 'B. no']",A,yes,Pedestrians (Specific Range)
+53,Data/left_videos/video_0000059.mp4,Are there pedestrians visible between frame 0 and 7?,"['A. yes', 'B. no']",B,no,Pedestrians (Specific Range)
+54,Data/left_videos/video_0000060.mp4,Are there pedestrians visible between frame 8 and 14?,"['A. yes', 'B. no']",A,yes,Pedestrians (Specific Range)
+55,Data/left_videos/video_0000061.mp4,Are there pedestrians visible between frame 8 and 8?,"['A. yes', 'B. no']",B,no,Pedestrians (Specific Range)
+56,Data/left_videos/video_0000062.mp4,"I am jogging, are there any Intersections visible between frame 0 and 10?","['A. yes', 'B. no']",A,yes,Intersections Ahead (Specific Range)
+57,Data/left_videos/video_0000063.mp4,Are there pedestrians visible between frame 20 and 25?,"['A. yes', 'B. no']",B,no,Pedestrians (Specific Range)
+58,Data/left_videos/video_0000064.mp4,"I am jogging, are there any Intersections visible between frame 0 and 7?","['A. yes', 'B. no']",A,yes,Intersections Ahead (Specific Range)
+59,Data/left_videos/video_0000065.mp4,"I am jogging, are there any Intersections visible between frame 0 and 10?","['A. yes', 'B. no']",A,yes,Intersections Ahead (Specific Range)
+60,Data/left_videos/video_0000066.mp4,"I am jogging, are there any Intersections visible between frame 0 and 7?","['A. yes', 'B. no']",A,yes,Intersections Ahead (Specific Range)
+61,Data/left_videos/video_0000067.mp4,"I am jogging, are there any Intersections visible between frame 0 and 7?","['A. yes', 'B. no']",B,no,Intersections Ahead (Specific Range)
+62,Data/left_videos/video_0000068.mp4,"I am jogging, are there any Intersections visible between frame 0 and 7?","['A. yes', 'B. no']",A,yes,Intersections Ahead (Specific Range)
+63,Data/left_videos/video_0000069.mp4,Are there pedestrians visible between frame 0 and 7?,"['A. yes', 'B. no']",A,yes,Pedestrians (Specific Range)
+64,Data/left_videos/video_0000070.mp4,Where am I currently running between frame 0 and 7?,"['A. designated running lane', 'B. sidewalk', 'C. street', 'D. off trail or hiking path']",D,off trail or hiking path,Navigation Lane 
+65,Data/left_videos/video_0000071.mp4,"I am jogging, are there any Intersections visible between frame 0 and 7?","['A. yes', 'B. no']",B,no,Intersections Ahead (Specific Range)
+66,Data/left_videos/video_0000073.mp4,Where am I currently running between frame 8 and 17?,"['A. designated running lane', 'B. sidewalk', 'C. street', 'D. off trail or hiking path']",D,off trail or hiking path,Navigation Lane 
+67,Data/left_videos/video_0000075.mp4,Are there pedestrians visible between frame 5 and 10?,"['A. yes', 'B. no']",A,yes,Pedestrians (Specific Range)
+68,Data/left_videos/video_0000076.mp4,Are there pedestrians visible between frame 8 and 16?,"['A. yes', 'B. no']",B,no,Pedestrians (Specific Range)
+69,Data/left_videos/video_0000077.mp4,Are there pedestrians visible between frame 0 and 5?,"['A. yes', 'B. no']",B,no,Pedestrians (Specific Range)
+70,Data/left_videos/video_0000078.mp4,"I am jogging, are there any Intersections visible between frame 0 and 5?","['A. yes', 'B. no']",A,yes,Intersections Ahead (Specific Range)
+71,Data/left_videos/video_0000079.mp4,Are there pedestrians visible between frame 18 and 24?,"['A. yes', 'B. no']",A,yes,Pedestrians (Specific Range)
+72,Data/left_videos/video_0000080.mp4,Is there an immediate turn between frame 26 and 31?,"['A. yes turn left', 'B. yes turn right', 'C. yes turn left or right', 'D. no']",B,yes turn right,Navigation Turn
+73,Data/left_videos/video_0000081.mp4,Is there an immediate turn between frame 0 and 12?,"['A. yes turn left', 'B. yes turn right', 'C. yes turn left or right', 'D. no']",D,no,Navigation Turn
+74,Data/left_videos/video_0000082.mp4,"I am jogging, are there any Intersections visible between frame 0 and 7?","['A. yes', 'B. no']",A,yes,Intersections Ahead (Specific Range)
+75,Data/left_videos/video_0000083.mp4,"I am jogging, are there any Intersections visible between frame 0 and 7?","['A. yes', 'B. no']",B,no,Intersections Ahead (Specific Range)
+76,Data/left_videos/video_0000084.mp4,Are there obstructions visible to my left or right between frame 19 and 22?,"['A. left', 'B. right', 'C. none', 'D. both']",D,both,Obstructions (Specific Range)
+77,Data/left_videos/video_0000085.mp4,Are there pedestrians visible between frame 0 and 7?,"['A. yes', 'B. no']",A,yes,Pedestrians (Specific Range)
+78,Data/left_videos/video_0000086.mp4,Are there pedestrians visible between frame 22 and 28?,"['A. yes', 'B. no']",B,no,Pedestrians (Specific Range)
+79,Data/left_videos/video_0000087.mp4,Where am I currently running between frame 0 and 8?,"['A. designated running lane', 'B. sidewalk', 'C. street', 'D. off trail or hiking path']",D,off trail or hiking path,Navigation Lane 
+80,Data/left_videos/video_0000088.mp4,Are there pedestrians visible between frame 0 and 5?,"['A. yes', 'B. no']",A,yes,Pedestrians (Specific Range)
+81,Data/left_videos/video_0000089.mp4,"I am jogging, are there any Intersections visible between frame 19 and 25?","['A. yes', 'B. no']",A,yes,Intersections Ahead (Specific Range)
+82,Data/left_videos/video_0000091.mp4,Are there pedestrians visible between frame 10 and 15?,"['A. yes', 'B. no']",A,yes,Pedestrians (Specific Range)
+83,Data/left_videos/video_0000092.mp4,Are there pedestrians visible between frame 0 and 10?,"['A. yes', 'B. no']",A,yes,Pedestrians (Specific Range)
+84,Data/left_videos/video_0000093.mp4,Where am I currently running between frame 0 and 7?,"['A. designated running lane', 'B. sidewalk', 'C. street', 'D. off trail or hiking path']",B,sidewalk,Navigation Lane 
+85,Data/left_videos/video_0000094.mp4,Where am I currently running between frame 0 and 7?,"['A. designated running lane', 'B. sidewalk', 'C. street', 'D. off trail or hiking path']",B,sidewalk,Navigation Lane 
+86,Data/left_videos/video_0000095.mp4,Are there obstructions visible to my left or right between frame 0 and 7?,"['A. left', 'B. right', 'C. none', 'D. both']",A,left,Obstructions (Specific Range)
+87,Data/left_videos/video_0000096.mp4,Are there obstructions visible to my left or right between frame 0 and 8?,"['A. left', 'B. right', 'C. none', 'D. both']",D,both,Obstructions (Specific Range)
+88,Data/left_videos/video_0000097.mp4,"I am jogging, are there any Intersections visible between frame 0 and 10?","['A. yes', 'B. no']",B,no,Intersections Ahead (Specific Range)
+89,Data/left_videos/video_0000098.mp4,Are there obstructions visible to my left or right between frame 0 and 8?,"['A. left', 'B. right', 'C. none', 'D. both']",B,right,Obstructions (Specific Range)
+90,Data/left_videos/video_0000099.mp4,"I am jogging, are there any Intersections visible between frame 0 and 10?","['A. yes', 'B. no']",A,yes,Intersections Ahead (Specific Range)
+91,Data/left_videos/video_0000100.mp4,"I am jogging, are there any Intersections visible between frame 18 and 24?","['A. yes', 'B. no']",A,yes,Intersections Ahead (Specific Range)
+92,Data/left_videos/video_0000103.mp4,Where am I currently running between frame 0 and 7?,"['A. designated running lane', 'B. sidewalk', 'C. street', 'D. off trail or hiking path']",B,sidewalk,Navigation Lane 
+93,Data/left_videos/video_0000104.mp4,Are there pedestrians visible between frame 0 and 7?,"['A. yes', 'B. no']",A,yes,Pedestrians (Specific Range)
+94,Data/left_videos/video_0000105.mp4,Are there pedestrians visible between frame 0 and 7?,"['A. yes', 'B. no']",B,no,Pedestrians (Specific Range)
+95,Data/left_videos/video_0000106.mp4,"I am jogging, are there any Intersections visible between frame 12 and 16?","['A. yes', 'B. no']",B,no,Intersections Ahead (Specific Range)
+96,Data/left_videos/video_0000107.mp4,"I am jogging, are there any Intersections visible between frame 5 and 12?","['A. yes', 'B. no']",A,yes,Intersections Ahead (Specific Range)
+97,Data/left_videos/video_0000108.mp4,"I am jogging, are there any Intersections visible between frame 20 and 28?","['A. yes', 'B. no']",A,yes,Intersections Ahead (Specific Range)
+98,Data/left_videos/video_0000109.mp4,Are there pedestrians visible between frame 0 and 9?,"['A. yes', 'B. no']",B,no,Pedestrians (Specific Range)
+99,Data/left_videos/video_0000110.mp4,Are there pedestrians visible between frame 15 and 18?,"['A. yes', 'B. no']",B,no,Pedestrians (Specific Range)
+100,Data/left_videos/video_0000111.mp4,Are there pedestrians visible between frame 0 and 10?,"['A. yes', 'B. no']",A,yes,Pedestrians (Specific Range)
+101,Data/left_videos/video_0000112.mp4,Where am I currently running between frame 0 and 7?,"['A. designated running lane', 'B. sidewalk', 'C. street', 'D. off trail or hiking path']",D,off trail or hiking path,Navigation Lane 
+102,Data/left_videos/video_0000113.mp4,Where am I currently running between frame 10 and 15?,"['A. designated running lane', 'B. sidewalk', 'C. street', 'D. off trail or hiking path']",B,sidewalk,Navigation Lane 
+103,Data/left_videos/video_0000114.mp4,Where am I currently running between frame 13 and 20?,"['A. designated running lane', 'B. sidewalk', 'C. street', 'D. off trail or hiking path']",B,sidewalk,Navigation Lane 
+104,Data/left_videos/video_0000115.mp4,Are there pedestrians visible between frame 5 and 10?,"['A. yes', 'B. no']",A,yes,Pedestrians (Specific Range)
+105,Data/left_videos/video_0000117.mp4,Where am I currently running between frame 10 and 15?,"['A. designated running lane', 'B. sidewalk', 'C. street', 'D. off trail or hiking path']",B,sidewalk,Navigation Lane 
+106,Data/left_videos/video_0000118.mp4,Where am I currently running between frame 0 and 10?,"['A. designated running lane', 'B. sidewalk', 'C. street', 'D. off trail or hiking path']",B,sidewalk,Navigation Lane 
+107,Data/left_videos/video_0000119.mp4,Are there pedestrians visible between frame 0 and 7?,"['A. yes', 'B. no']",A,yes,Pedestrians (Specific Range)
+108,Data/left_videos/video_0000120.mp4,Are there obstructions visible to my left or right between frame 28 and 31?,"['A. left', 'B. right', 'C. none', 'D. both']",B,right,Obstructions (Specific Range)
+109,Data/left_videos/video_0000121.mp4,Are there pedestrians visible between frame 0 and 8?,"['A. yes', 'B. no']",A,yes,Pedestrians (Specific Range)
+110,Data/left_videos/video_0000122.mp4,Where am I currently running between frame 0 and 8?,"['A. designated running lane', 'B. sidewalk', 'C. street', 'D. off trail or hiking path']",B,sidewalk,Navigation Lane 
+111,Data/left_videos/video_0000124.mp4,Where am I currently running between frame 0 and 9?,"['A. designated running lane', 'B. sidewalk', 'C. street', 'D. off trail or hiking path']",B,sidewalk,Navigation Lane 
+112,Data/left_videos/video_0000126.mp4,Are there pedestrians visible between frame 0 and 8?,"['A. yes', 'B. no']",A,yes,Pedestrians (Specific Range)
+113,Data/left_videos/video_0000127.mp4,Are there pedestrians visible between frame 25 and 31?,"['A. yes', 'B. no']",A,yes,Pedestrians (Specific Range)
+114,Data/left_videos/video_0000128.mp4,Are there pedestrians visible between frame 0 and 10?,"['A. yes', 'B. no']",A,yes,Pedestrians (Specific Range)
+115,Data/left_videos/video_0000129.mp4,Are there obstructions visible to my left or right between frame 10 and 18?,"['A. left', 'B. right', 'C. none', 'D. both']",D,both,Obstructions (Specific Range)
+116,Data/left_videos/video_0000130.mp4,Are there obstructions visible to my left or right between frame 0 and 10?,"['A. left', 'B. right', 'C. none', 'D. both']",A,left,Obstructions (Specific Range)
+117,Data/left_videos/video_0000131.mp4,Are there pedestrians visible between frame 14 and 18?,"['A. yes', 'B. no']",A,yes,Pedestrians (Specific Range)
+118,Data/left_videos/video_0000132.mp4,Are there obstructions visible to my left or right between frame 25 and 31?,"['A. left', 'B. right', 'C. none', 'D. both']",C,none,Obstructions (Specific Range)
+119,Data/left_videos/video_0000133.mp4,Are there obstructions visible to my left or right between frame 0 and 8?,"['A. left', 'B. right', 'C. none', 'D. both']",D,both,Obstructions (Specific Range)
+120,Data/left_videos/video_0000134.mp4,"I am jogging, are there any Intersections visible between frame 11 and 16?","['A. yes', 'B. no']",A,yes,Intersections Ahead (Specific Range)
+121,Data/left_videos/video_0000135.mp4,Where am I currently running between frame 0 and 7?,"['A. designated running lane', 'B. sidewalk', 'C. street', 'D. off trail or hiking path']",B,sidewalk,Navigation Lane 
+122,Data/left_videos/video_0000137.mp4,Where am I currently running between frame 10 and 20?,"['A. designated running lane', 'B. sidewalk', 'C. street', 'D. off trail or hiking path']",B,sidewalk,Navigation Lane 
+123,Data/left_videos/video_0000138.mp4,"I am jogging, are there any Intersections visible between frame 0 and 5?","['A. yes', 'B. no']",A,yes,Intersections Ahead (Specific Range)
+124,Data/left_videos/video_0000139.mp4,"I am jogging, are there any Intersections visible between frame 0 and 5?","['A. yes', 'B. no']",A,yes,Intersections Ahead (Specific Range)
+125,Data/left_videos/video_0000140.mp4,Are there pedestrians visible between frame 0 and 8?,"['A. yes', 'B. no']",A,yes,Pedestrians (Specific Range)
+126,Data/left_videos/video_0000141.mp4,"I am jogging, are there any Intersections visible between frame 0 and 5?","['A. yes', 'B. no']",A,yes,Intersections Ahead (Specific Range)
+127,Data/left_videos/video_0000142.mp4,Are there obstructions visible to my left or right between frame 10 and 12?,"['A. left', 'B. right', 'C. none', 'D. both']",B,right,Obstructions (Specific Range)
+128,Data/left_videos/video_0000143.mp4,Are there obstructions visible to my left or right between frame 0 and 8?,"['A. left', 'B. right', 'C. none', 'D. both']",C,none,Obstructions (Specific Range)
+129,Data/left_videos/video_0000144.mp4,Where am I currently running between frame 0 and 7?,"['A. designated running lane', 'B. sidewalk', 'C. street', 'D. off trail or hiking path']",B,sidewalk,Navigation Lane 
+130,Data/left_videos/video_0000145.mp4,"I am jogging, are there any Intersections visible between frame 12 and 17?","['A. yes', 'B. no']",A,yes,Intersections Ahead (Specific Range)
+131,Data/left_videos/video_0000146.mp4,Where am I currently running between frame 0 and 7?,"['A. designated running lane', 'B. sidewalk', 'C. street', 'D. off trail or hiking path']",D,off trail or hiking path,Navigation Lane 
+132,Data/left_videos/video_0000149.mp4,Where am I currently running between frame 0 and 8?,"['A. designated running lane', 'B. sidewalk', 'C. street', 'D. off trail or hiking path']",D,off trail or hiking path,Navigation Lane 
+133,Data/left_videos/video_0000150.mp4,Where am I currently running between frame 15 and 17?,"['A. designated running lane', 'B. sidewalk', 'C. street', 'D. off trail or hiking path']",B,sidewalk,Navigation Lane 
+134,Data/left_videos/video_0000151.mp4,Are there pedestrians visible between frame 0 and 7?,"['A. yes', 'B. no']",A,yes,Pedestrians (Specific Range)
+135,Data/left_videos/video_0000152.mp4,Are there obstructions visible to my left or right between frame 20 and 25?,"['A. left', 'B. right', 'C. none', 'D. both']",D,both,Obstructions (Specific Range)
+136,Data/left_videos/video_0000154.mp4,Are there pedestrians visible between frame 7 and 13?,"['A. yes', 'B. no']",B,no,Pedestrians (Specific Range)
+137,Data/left_videos/video_0000155.mp4,I am jogging. Should I veer left or right to avoid obstructions between frame 5 and 12?,"['A. left', 'B. right', 'C. stay straight']",C,stay straight,Navigation Veer
+138,Data/left_videos/video_0000156.mp4,"I am jogging, are there any Intersections visible between frame 8 and 12?","['A. yes', 'B. no']",A,yes,Intersections Ahead (Specific Range)
+139,Data/left_videos/video_0000157.mp4,Where am I currently running between frame 28 and 30?,"['A. designated running lane', 'B. sidewalk', 'C. street', 'D. off trail or hiking path']",B,sidewalk,Navigation Lane 
+140,Data/left_videos/video_0000158.mp4,Where am I currently running between frame 0 and 3?,"['A. designated running lane', 'B. sidewalk', 'C. street', 'D. off trail or hiking path']",B,sidewalk,Navigation Lane 
+141,Data/left_videos/video_0000159.mp4,Are there obstructions visible to my left or right between frame 5 and 8?,"['A. left', 'B. right', 'C. none', 'D. both']",D,both,Obstructions (Specific Range)
+142,Data/left_videos/video_0000160.mp4,"I am jogging, are there any Intersections visible between frame 25 and 30?","['A. yes', 'B. no']",A,yes,Intersections Ahead (Specific Range)
+143,Data/left_videos/video_0000162.mp4,"I am jogging, are there any Intersections visible between frame 0 and 1?","['A. yes', 'B. no']",A,yes,Intersections Ahead (Specific Range)
+144,Data/left_videos/video_0000164.mp4,Are there pedestrians visible between frame 0 and 3?,"['A. yes', 'B. no']",A,yes,Pedestrians (Specific Range)
+145,Data/left_videos/video_0000165.mp4,Where am I currently running between frame 0 and 4?,"['A. designated running lane', 'B. sidewalk', 'C. street', 'D. off trail or hiking path']",A,designated running lane,Navigation Lane 
+146,Data/left_videos/video_0000166.mp4,Are there pedestrians visible between frame 25 and 30?,"['A. yes', 'B. no']",A,yes,Pedestrians (Specific Range)
+147,Data/left_videos/video_0000167.mp4,Where am I currently running between frame 0 and 2?,"['A. designated running lane', 'B. sidewalk', 'C. street', 'D. off trail or hiking path']",B,sidewalk,Navigation Lane 
+148,Data/left_videos/video_0000168.mp4,Are there obstructions visible to my left or right between frame 12 and 17?,"['A. left', 'B. right', 'C. none', 'D. both']",D,both,Obstructions (Specific Range)
+149,Data/left_videos/video_0000169.mp4,Is there an immediate turn between frame 0 and 0?,"['A. yes turn left', 'B. yes turn right', 'C. yes turn left or right', 'D. no']",D,no,Navigation Turn
+150,Data/left_videos/video_0000170.mp4,Are there pedestrians visible between frame 23 and 26?,"['A. yes', 'B. no']",A,yes,Pedestrians (Specific Range)
+151,Data/left_videos/video_0000171.mp4,Where am I currently running between frame 0 and 6?,"['A. designated running lane', 'B. sidewalk', 'C. street', 'D. off trail or hiking path']",B,sidewalk,Navigation Lane 
+152,Data/left_videos/video_0000172.mp4,"I am jogging, are there any Intersections visible between frame 2 and 4?","['A. yes', 'B. no']",A,yes,Intersections Ahead (Specific Range)
+153,Data/left_videos/video_0000173.mp4,Are there pedestrians visible between frame 0 and 3?,"['A. yes', 'B. no']",B,no,Pedestrians (Specific Range)
+154,Data/left_videos/video_0000174.mp4,Where am I currently running between frame 0 and 3?,"['A. designated running lane', 'B. sidewalk', 'C. street', 'D. off trail or hiking path']",B,sidewalk,Navigation Lane 
+155,Data/left_videos/video_0000175.mp4,"I am jogging, are there any Intersections visible between frame 3 and 5?","['A. yes', 'B. no']",A,yes,Intersections Ahead (Specific Range)
+156,Data/left_videos/video_0000177.mp4,Are there pedestrians visible between frame 3 and 7?,"['A. yes', 'B. no']",A,yes,Pedestrians (Specific Range)
+157,Data/left_videos/video_0000178.mp4,Where am I currently running between frame 0 and 6?,"['A. designated running lane', 'B. sidewalk', 'C. street', 'D. off trail or hiking path']",A,designated running lane,Navigation Lane 
+158,Data/left_videos/video_0000179.mp4,Where am I currently running between frame 0 and 3?,"['A. designated running lane', 'B. sidewalk', 'C. street', 'D. off trail or hiking path']",B,sidewalk,Navigation Lane 
+159,Data/left_videos/video_0000180.mp4,Where am I currently running between frame 0 and 2?,"['A. designated running lane', 'B. sidewalk', 'C. street', 'D. off trail or hiking path']",B,sidewalk,Navigation Lane 
+160,Data/left_videos/video_0000181.mp4,Where am I currently running between frame 0 and 20?,"['A. designated running lane', 'B. sidewalk', 'C. street', 'D. off trail or hiking path']",A,designated running lane,Navigation Lane 
+161,Data/left_videos/video_0000182.mp4,Are there obstructions visible to my left or right between frame 5 and 10?,"['A. left', 'B. right', 'C. none', 'D. both']",A,left,Obstructions (Specific Range)
+162,Data/left_videos/video_0000183.mp4,"I am jogging, are there any Intersections visible between frame 4 and 10?","['A. yes', 'B. no']",B,no,Intersections Ahead (Specific Range)
+163,Data/left_videos/video_0000184.mp4,Are there pedestrians visible between frame 0 and 3?,"['A. yes', 'B. no']",B,no,Pedestrians (Specific Range)
+164,Data/left_videos/video_0000185.mp4,"I am jogging, are there any Intersections visible between frame 8 and 14?","['A. yes', 'B. no']",B,no,Intersections Ahead (Specific Range)
+165,Data/left_videos/video_0000186.mp4,Are there obstructions visible to my left or right between frame 13 and 16?,"['A. left', 'B. right', 'C. none', 'D. both']",A,left,Obstructions (Specific Range)
+166,Data/left_videos/video_0000189.mp4,Are there obstructions visible to my left or right between frame 0 and 5?,"['A. left', 'B. right', 'C. none', 'D. both']",A,left,Obstructions (Specific Range)
+167,Data/left_videos/video_0000190.mp4,"I am jogging, are there any Intersections visible between frame 25 and 29?","['A. yes', 'B. no']",A,yes,Intersections Ahead (Specific Range)
+168,Data/left_videos/video_0000191.mp4,"I am jogging, are there any Intersections visible between frame 20 and 27?","['A. yes', 'B. no']",A,yes,Intersections Ahead (Specific Range)
+169,Data/left_videos/video_0000192.mp4,Are there pedestrians visible between frame 0 and 4?,"['A. yes', 'B. no']",A,yes,Pedestrians (Specific Range)
+170,Data/left_videos/video_0000193.mp4,Are there pedestrians visible between frame 4 and 9?,"['A. yes', 'B. no']",A,yes,Pedestrians (Specific Range)
+171,Data/left_videos/video_0000195.mp4,Are there pedestrians visible between frame 0 and 7?,"['A. yes', 'B. no']",B,no,Pedestrians (Specific Range)
+172,Data/left_videos/video_0000197.mp4,"I am jogging, are there any Intersections visible between frame 10 and 12?","['A. yes', 'B. no']",A,yes,Intersections Ahead (Specific Range)
+173,Data/left_videos/video_0000198.mp4,Where am I currently running between frame 0 and 9?,"['A. designated running lane', 'B. sidewalk', 'C. street', 'D. off trail or hiking path']",B,sidewalk,Navigation Lane 
+174,Data/left_videos/video_0000199.mp4,Where am I currently running between frame 0 and 10?,"['A. designated running lane', 'B. sidewalk', 'C. street', 'D. off trail or hiking path']",D,off trail or hiking path,Navigation Lane 
+175,Data/left_videos/video_0000200.mp4,Are there pedestrians visible between frame 4 and 7?,"['A. yes', 'B. no']",A,yes,Pedestrians (Specific Range)
+176,Data/left_videos/video_0000201.mp4,Are there pedestrians visible between frame 0 and 6?,"['A. yes', 'B. no']",B,no,Pedestrians (Specific Range)
+177,Data/left_videos/video_0000202.mp4,Are there pedestrians visible between frame 3 and 6?,"['A. yes', 'B. no']",A,yes,Pedestrians (Specific Range)
+178,Data/left_videos/video_0000203.mp4,Are there pedestrians visible between frame 0 and 3?,"['A. yes', 'B. no']",A,yes,Pedestrians (Specific Range)
+179,Data/left_videos/video_0000204.mp4,Are there pedestrians visible between frame 0 and 8?,"['A. yes', 'B. no']",A,yes,Pedestrians (Specific Range)
+180,Data/left_videos/video_0000205.mp4,Where am I currently running between frame 0 and 3?,"['A. designated running lane', 'B. sidewalk', 'C. street', 'D. off trail or hiking path']",B,sidewalk,Navigation Lane 
+181,Data/left_videos/video_0000206.mp4,Are there pedestrians visible between frame 22 and 25?,"['A. yes', 'B. no']",A,yes,Pedestrians (Specific Range)
+182,Data/left_videos/video_0000207.mp4,Are there pedestrians visible between frame 9 and 12?,"['A. yes', 'B. no']",A,yes,Pedestrians (Specific Range)
+183,Data/left_videos/video_0000208.mp4,Are there pedestrians visible between frame 20 and 25?,"['A. yes', 'B. no']",B,no,Pedestrians (Specific Range)
+184,Data/left_videos/video_0000210.mp4,"I am jogging, are there any Intersections visible between frame 28 and 30?","['A. yes', 'B. no']",A,yes,Intersections Ahead (Specific Range)
+185,Data/left_videos/video_0000211.mp4,Where am I currently running between frame 20 and 25?,"['A. designated running lane', 'B. sidewalk', 'C. street', 'D. off trail or hiking path']",B,sidewalk,Navigation Lane 
+186,Data/left_videos/video_0000212.mp4,Are there pedestrians visible between frame 9 and 13?,"['A. yes', 'B. no']",A,yes,Pedestrians (Specific Range)
+187,Data/left_videos/video_0000213.mp4,Are there pedestrians visible between frame 8 and 10?,"['A. yes', 'B. no']",B,no,Pedestrians (Specific Range)
+188,Data/left_videos/video_0000215.mp4,Are there pedestrians visible between frame 18 and 23?,"['A. yes', 'B. no']",A,yes,Pedestrians (Specific Range)
+189,Data/left_videos/video_0000216.mp4,Are there pedestrians visible between frame 16 and 22?,"['A. yes', 'B. no']",B,no,Pedestrians (Specific Range)
+190,Data/left_videos/video_0000217.mp4,Are there pedestrians visible between frame 0 and 9?,"['A. yes', 'B. no']",A,yes,Pedestrians (Specific Range)
+191,Data/left_videos/video_0000218.mp4,Where am I currently running between frame 0 and 3?,"['A. designated running lane', 'B. sidewalk', 'C. street', 'D. off trail or hiking path']",B,sidewalk,Navigation Lane 
+192,Data/left_videos/video_0000219.mp4,Are there pedestrians visible between frame 25 and 29?,"['A. yes', 'B. no']",A,yes,Pedestrians (Specific Range)
+193,Data/left_videos/video_0000220.mp4,Are there obstructions visible to my left or right between frame 25 and 29?,"['A. left', 'B. right', 'C. none', 'D. both']",B,right,Obstructions (Specific Range)
+194,Data/left_videos/video_0000221.mp4,Are there obstructions visible to my left or right between frame 27 and 31?,"['A. left', 'B. right', 'C. none', 'D. both']",A,left,Obstructions (Specific Range)
+195,Data/left_videos/video_0000222.mp4,Are there obstructions visible to my left or right between frame 0 and 10?,"['A. left', 'B. right', 'C. none', 'D. both']",A,left,Obstructions (Specific Range)
+196,Data/left_videos/video_0000223.mp4,Where am I currently running between frame 0 and 10?,"['A. designated running lane', 'B. sidewalk', 'C. street', 'D. off trail or hiking path']",B,sidewalk,Navigation Lane 
+197,Data/left_videos/video_0000224.mp4,Are there pedestrians visible between frame 0 and 10?,"['A. yes', 'B. no']",B,no,Pedestrians (Specific Range)
+198,Data/left_videos/video_0000225.mp4,Are there pedestrians visible between frame 18 and 24?,"['A. yes', 'B. no']",B,no,Pedestrians (Specific Range)
+199,Data/left_videos/video_0000226.mp4,Where am I currently running between frame 0 and 1?,"['A. designated running lane', 'B. sidewalk', 'C. street', 'D. off trail or hiking path']",A,designated running lane,Navigation Lane 
+200,Data/left_videos/video_0000227.mp4,"I am jogging, are there any Intersections visible between frame 0 and 3?","['A. yes', 'B. no']",B,no,Intersections Ahead (Specific Range)
+201,Data/left_videos/video_0000228.mp4,"I am jogging, are there any Intersections visible between frame 5 and 10?","['A. yes', 'B. no']",B,no,Intersections Ahead (Specific Range)
+202,Data/left_videos/video_0000229.mp4,"I am jogging, are there any Intersections visible between frame 0 and 10?","['A. yes', 'B. no']",B,no,Intersections Ahead (Specific Range)
+203,Data/left_videos/video_0000230.mp4,"I am jogging, are there any Intersections visible between frame 0 and 10?","['A. yes', 'B. no']",B,no,Intersections Ahead (Specific Range)
+204,Data/left_videos/video_0000231.mp4,"I am jogging, are there any Intersections visible between frame 10 and 23?","['A. yes', 'B. no']",B,no,Intersections Ahead (Specific Range)
+205,Data/left_videos/video_0000232.mp4,"I am jogging, are there any Intersections visible between frame 26 and 31?","['A. yes', 'B. no']",A,yes,Intersections Ahead (Specific Range)
+206,Data/left_videos/video_0000233.mp4,Are there pedestrians visible between frame 24 and 31?,"['A. yes', 'B. no']",B,no,Pedestrians (Specific Range)
+207,Data/left_videos/video_0000234.mp4,"I am jogging, are there any Intersections visible between frame 25 and 31?","['A. yes', 'B. no']",A,yes,Intersections Ahead (Specific Range)
+208,Data/left_videos/video_0000235.mp4,"I am jogging, are there any Intersections visible between frame 24 and 25?","['A. yes', 'B. no']",B,no,Intersections Ahead (Specific Range)
+209,Data/left_videos/video_0000237.mp4,"I am jogging, are there any Intersections visible between frame 25 and 27?","['A. yes', 'B. no']",B,no,Intersections Ahead (Specific Range)
+210,Data/left_videos/video_0000238.mp4,"I am jogging, are there any Intersections visible between frame 25 and 30?","['A. yes', 'B. no']",A,yes,Intersections Ahead (Specific Range)
+211,Data/left_videos/video_0000239.mp4,Are there pedestrians visible between frame 0 and 1?,"['A. yes', 'B. no']",A,yes,Pedestrians (Specific Range)
+212,Data/left_videos/video_0000240.mp4,"I am jogging, are there any Intersections visible between frame 7 and 14?","['A. yes', 'B. no']",A,yes,Intersections Ahead (Specific Range)
+213,Data/left_videos/video_0000241.mp4,Are there obstructions visible to my left or right between frame 0 and 15?,"['A. left', 'B. right', 'C. none', 'D. both']",D,both,Obstructions (Specific Range)
+214,Data/left_videos/video_0000242.mp4,"I am jogging, are there any Intersections visible between frame 24 and 28?","['A. yes', 'B. no']",B,no,Intersections Ahead (Specific Range)
+215,Data/left_videos/video_0000243.mp4,Are there obstructions visible to my left or right between frame 0 and 14?,"['A. left', 'B. right', 'C. none', 'D. both']",C,none,Obstructions (Specific Range)
+216,Data/left_videos/video_0000244.mp4,Are there pedestrians visible between frame 0 and 3?,"['A. yes', 'B. no']",B,no,Pedestrians (Specific Range)
+217,Data/left_videos/video_0000246.mp4,Are there obstructions visible to my left or right between frame 0 and 6?,"['A. left', 'B. right', 'C. none', 'D. both']",C,none,Obstructions (Specific Range)
+218,Data/left_videos/video_0000247.mp4,Are there obstructions visible to my left or right between frame 11 and 20?,"['A. left', 'B. right', 'C. none', 'D. both']",D,both,Obstructions (Specific Range)
+219,Data/left_videos/video_0000248.mp4,Are there pedestrians visible between frame 4 and 9?,"['A. yes', 'B. no']",B,no,Pedestrians (Specific Range)
+220,Data/left_videos/video_0000249.mp4,Are there obstructions visible to my left or right between frame 0 and 15?,"['A. left', 'B. right', 'C. none', 'D. both']",A,left,Obstructions (Specific Range)
+221,Data/left_videos/video_0000250.mp4,Are there pedestrians visible between frame 27 and 30?,"['A. yes', 'B. no']",A,yes,Pedestrians (Specific Range)
+222,Data/left_videos/video_0000251.mp4,Is there an immediate turn between frame 0 and 31?,"['A. yes turn left', 'B. yes turn right', 'C. yes turn left or right', 'D. no']",D,no,Navigation Turn
+223,Data/left_videos/video_0000252.mp4,Are there obstructions visible to my left or right between frame 1 and 14?,"['A. left', 'B. right', 'C. none', 'D. both']",A,left,Obstructions (Specific Range)
+224,Data/left_videos/video_0000253.mp4,Are there obstructions visible to my left or right between frame 10 and 15?,"['A. left', 'B. right', 'C. none', 'D. both']",D,both,Obstructions (Specific Range)
+225,Data/left_videos/video_0000254.mp4,Are there obstructions visible to my left or right between frame 10 and 20?,"['A. left', 'B. right', 'C. none', 'D. both']",A,left,Obstructions (Specific Range)
+226,Data/left_videos/video_0000255.mp4,Are there obstructions visible to my left or right between frame 0 and 10?,"['A. left', 'B. right', 'C. none', 'D. both']",D,both,Obstructions (Specific Range)
+227,Data/left_videos/video_0000256.mp4,Are there obstructions visible to my left or right between frame 0 and 14?,"['A. left', 'B. right', 'C. none', 'D. both']",A,left,Obstructions (Specific Range)
+228,Data/left_videos/video_0000257.mp4,Are there obstructions visible to my left or right between frame 0 and 10?,"['A. left', 'B. right', 'C. none', 'D. both']",A,left,Obstructions (Specific Range)
+229,Data/left_videos/video_0000258.mp4,Are there obstructions visible to my left or right between frame 0 and 13?,"['A. left', 'B. right', 'C. none', 'D. both']",D,both,Obstructions (Specific Range)
+230,Data/left_videos/video_0000259.mp4,Are there obstructions visible to my left or right between frame 0 and 15?,"['A. left', 'B. right', 'C. none', 'D. both']",D,both,Obstructions (Specific Range)
+231,Data/left_videos/video_0000260.mp4,Are there obstructions visible to my left or right between frame 0 and 15?,"['A. left', 'B. right', 'C. none', 'D. both']",D,both,Obstructions (Specific Range)
+232,Data/left_videos/video_0000261.mp4,Where am I currently running between frame 0 and 10?,"['A. designated running lane', 'B. sidewalk', 'C. street', 'D. off trail or hiking path']",C,street,Navigation Lane 
+233,Data/left_videos/video_0000262.mp4,Where am I currently running between frame 0 and 10?,"['A. designated running lane', 'B. sidewalk', 'C. street', 'D. off trail or hiking path']",A,designated running lane,Navigation Lane 
+234,Data/left_videos/video_0000263.mp4,Are there obstructions visible to my left or right between frame 0 and 5?,"['A. left', 'B. right', 'C. none', 'D. both']",A,left,Obstructions (Specific Range)
+235,Data/left_videos/video_0000264.mp4,Are there obstructions visible to my left or right between frame 0 and 10?,"['A. left', 'B. right', 'C. none', 'D. both']",B,right,Obstructions (Specific Range)
+236,Data/left_videos/video_0000265.mp4,Are there pedestrians visible between frame 0 and 10?,"['A. yes', 'B. no']",A,yes,Pedestrians (Specific Range)
+237,Data/left_videos/video_0000266.mp4,"I am jogging, are there any Intersections visible between frame 0 and 31?","['A. yes', 'B. no']",A,yes,Intersections Ahead (Specific Range)
+238,Data/left_videos/video_0000267.mp4,Are there obstructions visible to my left or right between frame 10 and 20?,"['A. left', 'B. right', 'C. none', 'D. both']",D,both,Obstructions (Specific Range)
+239,Data/left_videos/video_0000268.mp4,"I am jogging, are there any Intersections visible between frame 20 and 30?","['A. yes', 'B. no']",A,yes,Intersections Ahead (Specific Range)
+240,Data/left_videos/video_0000269.mp4,Are there pedestrians visible between frame 0 and 9?,"['A. yes', 'B. no']",A,yes,Pedestrians (Specific Range)
+241,Data/left_videos/video_0000270.mp4,Are there obstructions visible to my left or right between frame 20 and 30?,"['A. left', 'B. right', 'C. none', 'D. both']",B,right,Obstructions (Specific Range)
+242,Data/left_videos/video_0000271.mp4,Are there obstructions visible to my left or right between frame 0 and 15?,"['A. left', 'B. right', 'C. none', 'D. both']",B,right,Obstructions (Specific Range)
+243,Data/left_videos/video_0000272.mp4,Where am I currently running between frame 20 and 30?,"['A. designated running lane', 'B. sidewalk', 'C. street', 'D. off trail or hiking path']",B,sidewalk,Navigation Lane 
+244,Data/left_videos/video_0000273.mp4,Where am I currently running between frame 0 and 5?,"['A. designated running lane', 'B. sidewalk', 'C. street', 'D. off trail or hiking path']",D,off trail or hiking path,Navigation Lane 
+245,Data/left_videos/video_0000274.mp4,Are there obstructions visible to my left or right between frame 20 and 31?,"['A. left', 'B. right', 'C. none', 'D. both']",D,both,Obstructions (Specific Range)
+246,Data/left_videos/video_0000275.mp4,"I am jogging, are there any Intersections visible between frame 0 and 10?","['A. yes', 'B. no']",B,no,Intersections Ahead (Specific Range)
+247,Data/left_videos/video_0000276.mp4,Are there pedestrians visible between frame 0 and 13?,"['A. yes', 'B. no']",A,yes,Pedestrians (Specific Range)
+248,Data/left_videos/video_0000277.mp4,Are there obstructions visible to my left or right between frame 10 and 18?,"['A. left', 'B. right', 'C. none', 'D. both']",B,right,Obstructions (Specific Range)
+249,Data/left_videos/video_0000278.mp4,Are there pedestrians visible between frame 0 and 10?,"['A. yes', 'B. no']",A,yes,Pedestrians (Specific Range)
+250,Data/left_videos/video_0000279.mp4,"I am jogging, are there any Intersections visible between frame 0 and 10?","['A. yes', 'B. no']",B,no,Intersections Ahead (Specific Range)
+251,Data/left_videos/video_0000280.mp4,Are there pedestrians visible between frame 0 and 10?,"['A. yes', 'B. no']",A,yes,Pedestrians (Specific Range)
+252,Data/left_videos/video_0000281.mp4,Are there pedestrians visible between frame 0 and 10?,"['A. yes', 'B. no']",A,yes,Pedestrians (Specific Range)
+253,Data/left_videos/video_0000282.mp4,Are there obstructions visible to my left or right between frame 0 and 10?,"['A. left', 'B. right', 'C. none', 'D. both']",C,none,Obstructions (Specific Range)
+254,Data/left_videos/video_0000283.mp4,Are there pedestrians visible between frame 0 and 15?,"['A. yes', 'B. no']",A,yes,Pedestrians (Specific Range)
+255,Data/left_videos/video_0000284.mp4,Where am I currently running between frame 0 and 10?,"['A. designated running lane', 'B. sidewalk', 'C. street', 'D. off trail or hiking path']",B,sidewalk,Navigation Lane 
+256,Data/left_videos/video_0000285.mp4,Where am I currently running between frame 0 and 10?,"['A. designated running lane', 'B. sidewalk', 'C. street', 'D. off trail or hiking path']",B,sidewalk,Navigation Lane 
+257,Data/left_videos/video_0000286.mp4,"I am jogging, are there any Intersections visible between frame 0 and 10?","['A. yes', 'B. no']",B,no,Intersections Ahead (Specific Range)
+258,Data/left_videos/video_0000287.mp4,Where am I currently running between frame 0 and 10?,"['A. designated running lane', 'B. sidewalk', 'C. street', 'D. off trail or hiking path']",D,off trail or hiking path,Navigation Lane 
+259,Data/left_videos/video_0000288.mp4,Where am I currently running between frame 0 and 10?,"['A. designated running lane', 'B. sidewalk', 'C. street', 'D. off trail or hiking path']",B,sidewalk,Navigation Lane 
+260,Data/left_videos/video_0000289.mp4,"I am jogging, are there any Intersections visible between frame 0 and 10?","['A. yes', 'B. no']",B,no,Intersections Ahead (Specific Range)
+261,Data/left_videos/video_0000290.mp4,Are there pedestrians visible between frame 0 and 10?,"['A. yes', 'B. no']",A,yes,Pedestrians (Specific Range)
+262,Data/left_videos/video_0000291.mp4,Where am I currently running between frame 20 and 25?,"['A. designated running lane', 'B. sidewalk', 'C. street', 'D. off trail or hiking path']",B,sidewalk,Navigation Lane 
+263,Data/left_videos/video_0000293.mp4,Are there obstructions visible to my left or right between frame 20 and 31?,"['A. left', 'B. right', 'C. none', 'D. both']",A,left,Obstructions (Specific Range)
+264,Data/left_videos/video_0000294.mp4,Where am I currently running between frame 0 and 4?,"['A. designated running lane', 'B. sidewalk', 'C. street', 'D. off trail or hiking path']",D,off trail or hiking path,Navigation Lane 
+265,Data/left_videos/video_0000295.mp4,Where am I currently running between frame 10 and 20?,"['A. designated running lane', 'B. sidewalk', 'C. street', 'D. off trail or hiking path']",A,designated running lane,Navigation Lane 
+266,Data/left_videos/video_0000296.mp4,"I am jogging, are there any Intersections visible between frame 0 and 31?","['A. yes', 'B. no']",A,yes,Intersections Ahead (Specific Range)
+267,Data/left_videos/video_0000297.mp4,Are there pedestrians visible between frame 0 and 3?,"['A. yes', 'B. no']",A,yes,Pedestrians (Specific Range)
+268,Data/left_videos/video_0000298.mp4,"I am jogging, are there any Intersections visible between frame 0 and 10?","['A. yes', 'B. no']",A,yes,Intersections Ahead (Specific Range)
+269,Data/left_videos/video_0000299.mp4,Where am I currently running between frame 0 and 10?,"['A. designated running lane', 'B. sidewalk', 'C. street', 'D. off trail or hiking path']",B,sidewalk,Navigation Lane 
+270,Data/left_videos/video_0000301.mp4,Are there pedestrians visible between frame 15 and 20?,"['A. yes', 'B. no']",A,yes,Pedestrians (Specific Range)
